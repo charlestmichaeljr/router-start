@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
   }
 
   onLoadServer(id: number) {
+    // a comment I added
     this.router.navigate( ['/servers', id, 'edit'], );
   }
 
